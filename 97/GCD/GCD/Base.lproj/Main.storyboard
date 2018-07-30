@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GCD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSo-JV-XcR">
+                                <rect key="frame" x="9" y="44" width="357" height="30"/>
+                                <state key="normal" title="what is the meaning of the universe and everything?"/>
+                                <connections>
+                                    <action selector="doSomethingLater:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a5d-Mm-hqW"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="C0g-Ie-Lib">
+                                <rect key="frame" x="177" y="98" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMz-Dp-h1K">
+                                <rect key="frame" x="131.5" y="142" width="112" height="30"/>
+                                <color key="tintColor" red="0.56862745100000001" green="0.10980392160000001" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="download image"/>
+                                <connections>
+                                    <action selector="downloadImageAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oW7-Yi-8Rf"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lma-bL-A6O">
+                                <rect key="frame" x="67.5" y="196" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="N6L-77-wcj"/>
+                                    <constraint firstAttribute="height" constant="128" id="ZLf-sc-u99"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="SSo-JV-XcR" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9ef-sk-9sh"/>
+                            <constraint firstItem="lma-bL-A6O" firstAttribute="centerX" secondItem="PMz-Dp-h1K" secondAttribute="centerX" id="KtD-Tm-A9x"/>
+                            <constraint firstItem="C0g-Ie-Lib" firstAttribute="top" secondItem="SSo-JV-XcR" secondAttribute="bottom" constant="24" id="LUp-EF-TBl"/>
+                            <constraint firstItem="PMz-Dp-h1K" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="LkA-xy-KfS"/>
+                            <constraint firstItem="SSo-JV-XcR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="Xjx-G6-McR"/>
+                            <constraint firstItem="PMz-Dp-h1K" firstAttribute="top" secondItem="C0g-Ie-Lib" secondAttribute="bottom" constant="24" id="Yb1-gw-Z5C"/>
+                            <constraint firstItem="lma-bL-A6O" firstAttribute="top" secondItem="PMz-Dp-h1K" secondAttribute="bottom" constant="24" id="b11-gK-jnt"/>
+                            <constraint firstItem="C0g-Ie-Lib" firstAttribute="centerX" secondItem="SSo-JV-XcR" secondAttribute="centerX" id="kSM-CD-Wsd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="lma-bL-A6O" id="Pcv-lI-lg5"/>
+                        <outlet property="indicatorView" destination="C0g-Ie-Lib" id="FnA-pd-3Nf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
