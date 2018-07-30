@@ -9,17 +9,37 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var myButton: UIView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+
+        myButton.layer.cornerRadius = 8
+        myButton.layer.borderWidth = 1
+        myButton.layer.borderColor = UIColor.black.cgColor
+        myButton.layer.masksToBounds = true
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func controlPressed(_ sender: CustomControl) {
+        
+        sender.label?.textColor = .blue
+        
+        print(#line)
+        print(#function)
+        
     }
-
-
+    
 }
+
+
+
+
+
+
+
+
+
 

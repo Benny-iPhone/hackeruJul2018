@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Inputs1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="2JO-gX-fKH">
+                                <rect key="frame" x="14" y="36" width="347" height="31"/>
+                                <connections>
+                                    <action selector="changeAlpha:" destination="BYZ-38-t0r" eventType="valueChanged" id="yjb-le-HhX"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXq-V4-b6I">
+                                <rect key="frame" x="16" y="318.5" width="343" height="50"/>
+                                <color key="backgroundColor" red="0.49870160461127444" green="1" blue="0.54403156166690025" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="AaO-vb-AdZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="c7V-am-NM8">
+                                <rect key="frame" x="16" y="85" width="94" height="29"/>
+                                <connections>
+                                    <action selector="changeQnty:" destination="BYZ-38-t0r" eventType="valueChanged" id="n7C-49-YRm"/>
+                                </connections>
+                            </stepper>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="bWq-r7-lpu">
+                                <rect key="frame" x="16" y="134" width="343" height="29"/>
+                                <segments>
+                                    <segment title="Winter"/>
+                                    <segment title="Spring"/>
+                                    <segment title="Summer"/>
+                                    <segment title="Fall"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeSeason:" destination="BYZ-38-t0r" eventType="valueChanged" id="OvA-jc-wN2"/>
+                                </connections>
+                            </segmentedControl>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cvQ-VO-uZG">
+                                <rect key="frame" x="308" y="83" width="51" height="31"/>
+                                <connections>
+                                    <action selector="toggle:" destination="BYZ-38-t0r" eventType="valueChanged" id="GGi-mR-ReS"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="c7V-am-NM8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="7fH-gA-LTi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2JO-gX-fKH" secondAttribute="trailing" constant="16" id="9OA-O5-iLF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HXq-V4-b6I" secondAttribute="trailing" constant="16" id="DmH-9e-bTc"/>
+                            <constraint firstItem="cvQ-VO-uZG" firstAttribute="top" secondItem="2JO-gX-fKH" secondAttribute="bottom" constant="17" id="Ja9-dp-185"/>
+                            <constraint firstItem="c7V-am-NM8" firstAttribute="top" secondItem="2JO-gX-fKH" secondAttribute="bottom" constant="19" id="K0o-eA-sby"/>
+                            <constraint firstItem="bWq-r7-lpu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Pv4-LR-chV"/>
+                            <constraint firstItem="2JO-gX-fKH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="RVb-bD-Qz3"/>
+                            <constraint firstItem="bWq-r7-lpu" firstAttribute="top" secondItem="c7V-am-NM8" secondAttribute="bottom" constant="20" id="bGm-tN-Tkq"/>
+                            <constraint firstItem="HXq-V4-b6I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ocC-9F-xYj"/>
+                            <constraint firstItem="2JO-gX-fKH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="pb7-id-SX8"/>
+                            <constraint firstItem="HXq-V4-b6I" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="wz9-CN-bsn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cvQ-VO-uZG" secondAttribute="trailing" constant="18" id="y9N-Qc-dVo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bWq-r7-lpu" secondAttribute="trailing" constant="16" id="yqG-gL-HGA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="lbl" destination="HXq-V4-b6I" id="9q8-F6-7ZE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-100" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+</document>

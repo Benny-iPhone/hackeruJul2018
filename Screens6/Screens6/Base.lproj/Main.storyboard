@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9a7-Kn-FKz">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Yair-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Screens6" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.98408626444803726" green="1" blue="0.80136804132467843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Yair" id="yJu-ft-YmT">
+                        <barButtonItem key="rightBarButtonItem" title="nicola" id="Cdh-2U-Bj0">
+                            <connections>
+                                <segue destination="ErK-Lc-1zx" kind="show" id="OeL-Uh-jY1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="455.19999999999999" y="118.29085457271366"/>
+        </scene>
+        <!--Nicola-->
+        <scene sceneID="c18-hg-AaB">
+            <objects>
+                <viewController id="ErK-Lc-1zx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TJs-tg-bE9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.046756754587713001" blue="0.036023179013911499" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="04G-Qa-dnQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Nicola" id="4jp-JY-58P">
+                        <barButtonItem key="backBarButtonItem" title="Tesla" id="Kbq-64-zJm"/>
+                        <barButtonItem key="rightBarButtonItem" title="vlad" id="f5L-KG-N5w">
+                            <connections>
+                                <segue destination="npU-TH-oWs" kind="show" id="Do4-Gh-N4t"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qpe-Gm-WSJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1233" y="118"/>
+        </scene>
+        <!--Musician-->
+        <scene sceneID="VX6-qP-10J">
+            <objects>
+                <viewController id="npU-TH-oWs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2bX-OE-VL1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.7791477163818562" blue="0.40605311509129871" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="zrT-yc-5Cr"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Musician" id="kVb-sJ-Foj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pQN-1A-uHc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2028" y="116"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DIB-J7-2yP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9a7-Kn-FKz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="41R-8w-mmk">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="bYm-49-2Q5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YOF-Ck-9wS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-361" y="117"/>
+        </scene>
+    </scenes>
+</document>
