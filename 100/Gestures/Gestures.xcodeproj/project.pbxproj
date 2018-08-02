@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		269E108921134D7C00B79858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E108821134D7C00B79858 /* AppDelegate.swift */; };
+		269E108E21134D7D00B79858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269E108C21134D7D00B79858 /* Main.storyboard */; };
+		269E109021134D7E00B79858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269E108F21134D7E00B79858 /* Assets.xcassets */; };
+		269E109321134D7E00B79858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269E109121134D7E00B79858 /* LaunchScreen.storyboard */; };
+		269E109C21134E1D00B79858 /* DoubleTapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E109B21134E1D00B79858 /* DoubleTapViewController.swift */; };
+		269E109E21134E2700B79858 /* PanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E109D21134E2700B79858 /* PanViewController.swift */; };
+		269E10A021134E3400B79858 /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E109F21134E3400B79858 /* SwipeViewController.swift */; };
+		269E10A221134E3A00B79858 /* PinchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E10A121134E3A00B79858 /* PinchViewController.swift */; };
+		269E10A421134E4000B79858 /* RotateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E10A321134E4000B79858 /* RotateViewController.swift */; };
+		269E10A621134EE900B79858 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E10A521134EE900B79858 /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		269E108521134D7C00B79858 /* Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		269E108821134D7C00B79858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		269E108D21134D7D00B79858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		269E108F21134D7E00B79858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		269E109221134D7E00B79858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		269E109421134D7E00B79858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269E109B21134E1D00B79858 /* DoubleTapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTapViewController.swift; sourceTree = "<group>"; };
+		269E109D21134E2700B79858 /* PanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanViewController.swift; sourceTree = "<group>"; };
+		269E109F21134E3400B79858 /* SwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
+		269E10A121134E3A00B79858 /* PinchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchViewController.swift; sourceTree = "<group>"; };
+		269E10A321134E4000B79858 /* RotateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateViewController.swift; sourceTree = "<group>"; };
+		269E10A521134EE900B79858 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		269E108221134D7C00B79858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		269E107C21134D7C00B79858 = {
+			isa = PBXGroup;
+			children = (
+				269E108721134D7C00B79858 /* Gestures */,
+				269E108621134D7C00B79858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		269E108621134D7C00B79858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				269E108521134D7C00B79858 /* Gestures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		269E108721134D7C00B79858 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				269E108821134D7C00B79858 /* AppDelegate.swift */,
+				269E10A521134EE900B79858 /* Utils.swift */,
+				269E109A21134DFA00B79858 /* Controller */,
+				269E108C21134D7D00B79858 /* Main.storyboard */,
+				269E108F21134D7E00B79858 /* Assets.xcassets */,
+				269E109121134D7E00B79858 /* LaunchScreen.storyboard */,
+				269E109421134D7E00B79858 /* Info.plist */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		269E109A21134DFA00B79858 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				269E109B21134E1D00B79858 /* DoubleTapViewController.swift */,
+				269E109D21134E2700B79858 /* PanViewController.swift */,
+				269E109F21134E3400B79858 /* SwipeViewController.swift */,
+				269E10A121134E3A00B79858 /* PinchViewController.swift */,
+				269E10A321134E4000B79858 /* RotateViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		269E108421134D7C00B79858 /* Gestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269E109721134D7E00B79858 /* Build configuration list for PBXNativeTarget "Gestures" */;
+			buildPhases = (
+				269E108121134D7C00B79858 /* Sources */,
+				269E108221134D7C00B79858 /* Frameworks */,
+				269E108321134D7C00B79858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gestures;
+			productName = Gestures;
+			productReference = 269E108521134D7C00B79858 /* Gestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		269E107D21134D7C00B79858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = hackeru;
+				TargetAttributes = {
+					269E108421134D7C00B79858 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 269E108021134D7C00B79858 /* Build configuration list for PBXProject "Gestures" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 269E107C21134D7C00B79858;
+			productRefGroup = 269E108621134D7C00B79858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				269E108421134D7C00B79858 /* Gestures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		269E108321134D7C00B79858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269E109321134D7E00B79858 /* LaunchScreen.storyboard in Resources */,
+				269E109021134D7E00B79858 /* Assets.xcassets in Resources */,
+				269E108E21134D7D00B79858 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		269E108121134D7C00B79858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269E108921134D7C00B79858 /* AppDelegate.swift in Sources */,
+				269E10A421134E4000B79858 /* RotateViewController.swift in Sources */,
+				269E109E21134E2700B79858 /* PanViewController.swift in Sources */,
+				269E10A621134EE900B79858 /* Utils.swift in Sources */,
+				269E109C21134E1D00B79858 /* DoubleTapViewController.swift in Sources */,
+				269E10A021134E3400B79858 /* SwipeViewController.swift in Sources */,
+				269E10A221134E3A00B79858 /* PinchViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		269E108C21134D7D00B79858 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269E108D21134D7D00B79858 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		269E109121134D7E00B79858 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269E109221134D7E00B79858 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		269E109521134D7E00B79858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		269E109621134D7E00B79858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		269E109821134D7E00B79858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gestures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackeru.Gestures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		269E109921134D7E00B79858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gestures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackeru.Gestures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		269E108021134D7C00B79858 /* Build configuration list for PBXProject "Gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269E109521134D7E00B79858 /* Debug */,
+				269E109621134D7E00B79858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269E109721134D7E00B79858 /* Build configuration list for PBXNativeTarget "Gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269E109821134D7E00B79858 /* Debug */,
+				269E109921134D7E00B79858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 269E107D21134D7C00B79858 /* Project object */;
+}
