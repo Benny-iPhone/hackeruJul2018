@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		269E10FA2113821A00B79858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E10F92113821A00B79858 /* AppDelegate.swift */; };
-		269E10FC2113821A00B79858 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E10FB2113821A00B79858 /* ViewController.swift */; };
-		269E10FF2113821A00B79858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269E10FD2113821A00B79858 /* Main.storyboard */; };
-		269E11012113821B00B79858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269E11002113821B00B79858 /* Assets.xcassets */; };
-		269E11042113821B00B79858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269E11022113821B00B79858 /* LaunchScreen.storyboard */; };
-		269E110D2113827500B79858 /* CheckBoxImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E110C2113827500B79858 /* CheckBoxImageView.swift */; };
+		268EA8A721189536009D0A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EA8A621189536009D0A2E /* AppDelegate.swift */; };
+		268EA8A921189536009D0A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EA8A821189536009D0A2E /* ViewController.swift */; };
+		268EA8AC21189536009D0A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268EA8AA21189536009D0A2E /* Main.storyboard */; };
+		268EA8AE21189537009D0A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268EA8AD21189537009D0A2E /* Assets.xcassets */; };
+		268EA8B121189537009D0A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268EA8AF21189537009D0A2E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		269E10F62113821A00B79858 /* CheckBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		269E10F92113821A00B79858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		269E10FB2113821A00B79858 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		269E10FE2113821A00B79858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		269E11002113821B00B79858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		269E11032113821B00B79858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		269E11052113821B00B79858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		269E110C2113827500B79858 /* CheckBoxImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxImageView.swift; sourceTree = "<group>"; };
+		268EA8A321189536009D0A2E /* MediaPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		268EA8A621189536009D0A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		268EA8A821189536009D0A2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		268EA8AB21189536009D0A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		268EA8AD21189537009D0A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		268EA8B021189537009D0A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		268EA8B221189537009D0A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		269E10F32113821A00B79858 /* Frameworks */ = {
+		268EA8A021189536009D0A2E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,81 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		269E10ED2113821A00B79858 = {
+		268EA89A21189536009D0A2E = {
 			isa = PBXGroup;
 			children = (
-				269E10F82113821A00B79858 /* CheckBox */,
-				269E10F72113821A00B79858 /* Products */,
+				268EA8A521189536009D0A2E /* MediaPicker */,
+				268EA8A421189536009D0A2E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		269E10F72113821A00B79858 /* Products */ = {
+		268EA8A421189536009D0A2E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				269E10F62113821A00B79858 /* CheckBox.app */,
+				268EA8A321189536009D0A2E /* MediaPicker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		269E10F82113821A00B79858 /* CheckBox */ = {
+		268EA8A521189536009D0A2E /* MediaPicker */ = {
 			isa = PBXGroup;
 			children = (
-				269E110B2113821E00B79858 /* View */,
-				269E10F92113821A00B79858 /* AppDelegate.swift */,
-				269E10FB2113821A00B79858 /* ViewController.swift */,
-				269E10FD2113821A00B79858 /* Main.storyboard */,
-				269E11002113821B00B79858 /* Assets.xcassets */,
-				269E11022113821B00B79858 /* LaunchScreen.storyboard */,
-				269E11052113821B00B79858 /* Info.plist */,
+				268EA8A621189536009D0A2E /* AppDelegate.swift */,
+				268EA8A821189536009D0A2E /* ViewController.swift */,
+				268EA8AA21189536009D0A2E /* Main.storyboard */,
+				268EA8AD21189537009D0A2E /* Assets.xcassets */,
+				268EA8AF21189537009D0A2E /* LaunchScreen.storyboard */,
+				268EA8B221189537009D0A2E /* Info.plist */,
 			);
-			path = CheckBox;
-			sourceTree = "<group>";
-		};
-		269E110B2113821E00B79858 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				269E110C2113827500B79858 /* CheckBoxImageView.swift */,
-			);
-			path = View;
+			path = MediaPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		269E10F52113821A00B79858 /* CheckBox */ = {
+		268EA8A221189536009D0A2E /* MediaPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 269E11082113821B00B79858 /* Build configuration list for PBXNativeTarget "CheckBox" */;
+			buildConfigurationList = 268EA8B521189537009D0A2E /* Build configuration list for PBXNativeTarget "MediaPicker" */;
 			buildPhases = (
-				269E10F22113821A00B79858 /* Sources */,
-				269E10F32113821A00B79858 /* Frameworks */,
-				269E10F42113821A00B79858 /* Resources */,
+				268EA89F21189536009D0A2E /* Sources */,
+				268EA8A021189536009D0A2E /* Frameworks */,
+				268EA8A121189536009D0A2E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CheckBox;
-			productName = CheckBox;
-			productReference = 269E10F62113821A00B79858 /* CheckBox.app */;
+			name = MediaPicker;
+			productName = MediaPicker;
+			productReference = 268EA8A321189536009D0A2E /* MediaPicker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		269E10EE2113821A00B79858 /* Project object */ = {
+		268EA89B21189536009D0A2E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = hackeru;
 				TargetAttributes = {
-					269E10F52113821A00B79858 = {
+					268EA8A221189536009D0A2E = {
 						CreatedOnToolsVersion = 9.4.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 269E10F12113821A00B79858 /* Build configuration list for PBXProject "CheckBox" */;
+			buildConfigurationList = 268EA89E21189536009D0A2E /* Build configuration list for PBXProject "MediaPicker" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,55 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 269E10ED2113821A00B79858;
-			productRefGroup = 269E10F72113821A00B79858 /* Products */;
+			mainGroup = 268EA89A21189536009D0A2E;
+			productRefGroup = 268EA8A421189536009D0A2E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				269E10F52113821A00B79858 /* CheckBox */,
+				268EA8A221189536009D0A2E /* MediaPicker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		269E10F42113821A00B79858 /* Resources */ = {
+		268EA8A121189536009D0A2E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				269E11042113821B00B79858 /* LaunchScreen.storyboard in Resources */,
-				269E11012113821B00B79858 /* Assets.xcassets in Resources */,
-				269E10FF2113821A00B79858 /* Main.storyboard in Resources */,
+				268EA8B121189537009D0A2E /* LaunchScreen.storyboard in Resources */,
+				268EA8AE21189537009D0A2E /* Assets.xcassets in Resources */,
+				268EA8AC21189536009D0A2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		269E10F22113821A00B79858 /* Sources */ = {
+		268EA89F21189536009D0A2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				269E10FC2113821A00B79858 /* ViewController.swift in Sources */,
-				269E110D2113827500B79858 /* CheckBoxImageView.swift in Sources */,
-				269E10FA2113821A00B79858 /* AppDelegate.swift in Sources */,
+				268EA8A921189536009D0A2E /* ViewController.swift in Sources */,
+				268EA8A721189536009D0A2E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		269E10FD2113821A00B79858 /* Main.storyboard */ = {
+		268EA8AA21189536009D0A2E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				269E10FE2113821A00B79858 /* Base */,
+				268EA8AB21189536009D0A2E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		269E11022113821B00B79858 /* LaunchScreen.storyboard */ = {
+		268EA8AF21189537009D0A2E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				269E11032113821B00B79858 /* Base */,
+				268EA8B021189537009D0A2E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -175,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		269E11062113821B00B79858 /* Debug */ = {
+		268EA8B321189537009D0A2E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		269E11072113821B00B79858 /* Release */ = {
+		268EA8B421189537009D0A2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,30 +276,32 @@
 			};
 			name = Release;
 		};
-		269E11092113821B00B79858 /* Debug */ = {
+		268EA8B621189537009D0A2E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CheckBox/Info.plist;
+				DEVELOPMENT_TEAM = J7YZTH9Z4F;
+				INFOPLIST_FILE = MediaPicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackeru.CheckBox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackeru.MediaPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		269E110A2113821B00B79858 /* Release */ = {
+		268EA8B721189537009D0A2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CheckBox/Info.plist;
+				DEVELOPMENT_TEAM = J7YZTH9Z4F;
+				INFOPLIST_FILE = MediaPicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackeru.CheckBox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackeru.MediaPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,25 +311,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		269E10F12113821A00B79858 /* Build configuration list for PBXProject "CheckBox" */ = {
+		268EA89E21189536009D0A2E /* Build configuration list for PBXProject "MediaPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				269E11062113821B00B79858 /* Debug */,
-				269E11072113821B00B79858 /* Release */,
+				268EA8B321189537009D0A2E /* Debug */,
+				268EA8B421189537009D0A2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		269E11082113821B00B79858 /* Build configuration list for PBXNativeTarget "CheckBox" */ = {
+		268EA8B521189537009D0A2E /* Build configuration list for PBXNativeTarget "MediaPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				269E11092113821B00B79858 /* Debug */,
-				269E110A2113821B00B79858 /* Release */,
+				268EA8B621189537009D0A2E /* Debug */,
+				268EA8B721189537009D0A2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 269E10EE2113821A00B79858 /* Project object */;
+	rootObject = 268EA89B21189536009D0A2E /* Project object */;
 }
