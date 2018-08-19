@@ -1,0 +1,6 @@
+framework module Pods_InternetConnectionApp {
+  umbrella header "Pods-InternetConnectionApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
